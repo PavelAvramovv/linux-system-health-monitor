@@ -1,12 +1,26 @@
 # Linux System Health Monitor
 
-Simple Bash script that monitors:
+A lightweight Bash script for monitoring Linux system health.
 
-- CPU usage
-- RAM usage
-- Disk space
-- Web server status (nginx/apache)
+## Features
 
-Logs warnings if usage exceeds defined thresholds.
+- CPU usage monitoring
+- RAM usage monitoring
+- Disk space monitoring
+- Web server status check (nginx / apache)
+- Logging to system_health.log
+- Warning alerts when thresholds are exceeded
 
-Created as part of my personal SysAdmin practice and automation learning.
+## Requirements
+
+- Linux system
+- Bash
+- systemctl
+- bc
+
+## Usage
+
+Make the script executable:
+
+```bash
+chmod +x monitor.sh
